@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b061d !important;
+    color: #fff !important;
+}
+
+.parent {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+
+
+}
+
+.left-child {
+    width: 20%;
+    background-color: #eee;
+    height: 100vh;
+    background-color: #0e0726;
+
+}
+
+.right-child {
+    width: 80%;
+}
+
+@media (max-width:992px) {
+    .left-child {
+        display: none;
+    }
+
+    .navbar {
+        display: block !important;
+    }
+
+    .right-child {
+        width: 100%;
+    }
+}
+
+.div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    background-color: #0b061d !important;
+}
+
+
+@media (min-width:992px) {
+    .navbar {
+        display: none !important;
+    }
+}

@@ -1,0 +1,28 @@
+.SideBar {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.SideBar-ul {
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.SideBar h4 {
+    text-align: center;
+}
+
+.SideBar-ul li {
+    margin: 15px 0;
+    text-decoration: none;
+    padding: 20px 10px;
+    border-bottom: 1px solid #fff;
+    width: fit-content;
+}
+
+
+.SideBar-ul li a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}

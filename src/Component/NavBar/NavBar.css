@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #0e0726 !important;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+
+}
+
+.navbar-toggler-icon img {
+    width: 80px !important;
+}
+
+.nav-item {
+    padding: 10px 0 !important;
+}
+
+.nav-item a {
+    text-decoration: none;
+
+    color: #FFF;
+}

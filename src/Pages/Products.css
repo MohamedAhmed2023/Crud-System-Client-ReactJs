@@ -1,0 +1,47 @@
+.table-products {
+    width: 80%;
+    margin: auto;
+    background-color: #0e0726;
+    margin-top: 100px;
+}
+
+.table-products thead th {
+    background-color: #1c0c52 !important;
+    padding: 10px !important;
+
+}
+
+.table-products tbody td {
+    padding: 10px 0 !important;
+}
+
+tr th {
+    padding: 0 10px;
+}
+
+.heading-all {
+    margin-top: 50px;
+}
+
+.btn {
+    padding: 6px 8px !important;
+    margin: 0 10px;
+}
+
+@media (max-width:992px) {
+    .table-products {
+        width: 95%;
+        margin: auto;
+    }
+
+    .Btn-all {
+        padding: 4px 6px !important;
+        display: flex;
+        flex-direction: column;
+        margin: 5px 0 !important;
+    }
+
+    .Btn-all a, .Btn-all button {
+        margin: 3px 0;
+    }
+}
